@@ -1,0 +1,18 @@
+{
+  "name": "post-crud",
+  "version": "1.0.0",
+  "description": "postgres with nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rundev": "nodemon server.js"
+  },
+  "author": "me",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "pg": "^7.18.1"
+  }
+}
